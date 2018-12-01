@@ -30,7 +30,7 @@ class Portfolio extends Component {
         <PortfolioTitle title="Writing Samples"/>
         <PDFSection port={[{title: 'Finding Greatness: Analyzing Nike’s 2012 Olympics Advertisement Campaign', ClassName: "Nike", client: 'NYU Course Work', img: greatness},{title: 'Samsung and the Galaxy Note 7 Crisis: A psychological case study analysis', ClassName: "Samsung", client: 'NYU Course Work', img: samsung}, {title: 'Should Instagram enter the physical product market? UX & product design research', ClassName: "Instagram", client: 'NYU Course Work', img: instagram}]}/>
         <BackHome title="Back to home" ProjectLink="/"/>
-        <Footer dropEmail="Let's talk" lookingForward="" email="uwaheed@nyu.edu" navTitle="Navigation" navigation={[{name: 'Portfolio', linkTo: './portfolio'}, {name: 'About', linkTo: './about'}, {name: 'Home', linkTo: './'}]} socTitle="Social" footerSocial={[{name: 'LinkedIn', ClassName: 'In'}, {name: 'Upwork', ClassName: 'Up'}]}/>
+        <Footer dropEmail="Say hello" lookingForward="" email="uwaheed@nyu.edu" navTitle="Navigation" navigation={[{name: 'Portfolio', linkTo: './portfolio'}, {name: 'About', linkTo: './about'}, {name: 'Home', linkTo: './'}]} socTitle="Social" footerSocial={[{name: 'LinkedIn', ClassName: 'In'}, {name: 'Upwork', ClassName: 'Up'}]}/>
       </div>
     )
   }

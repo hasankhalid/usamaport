@@ -23,7 +23,7 @@ class About extends Component {
         <AboutListAgg title="And here are some other tidbits that you probably don't want to know, but I'm going to tell you anyway" aggregate={["I am a budding beatboxer.","I'm training to be a competitive pun-maker (yes, it's a thing).", "I can do several voice impressions, including a mean Mr. Burns (from the Simpsons).", "I tend to dabble in the arts from time to time. Here's the last time I picked up a video camera"]}/>
         <EmbedYoutube id='BwxbGXNXbuY&'/>
         <BackHome title="Back to home" ProjectLink="/"/>
-        <Footer dropEmail="Let's talk" lookingForward="" email="uwaheed@nyu.edu" navTitle="Navigation" navigation={[{name: 'Portfolio', linkTo: './portfolio'}, {name: 'About', linkTo: './about'}, {name: 'Home', linkTo: './'}]} socTitle="Social" footerSocial={[{name: 'LinkedIn', ClassName: 'In'}, {name: 'Upwork', ClassName: 'Up'}]}/>
+        <Footer dropEmail="Say hello" lookingForward="" email="uwaheed@nyu.edu" navTitle="Navigation" navigation={[{name: 'Portfolio', linkTo: './portfolio'}, {name: 'About', linkTo: './about'}, {name: 'Home', linkTo: './'}]} socTitle="Social" footerSocial={[{name: 'LinkedIn', ClassName: 'In'}, {name: 'Upwork', ClassName: 'Up'}]}/>
       </div>
     )
   }
