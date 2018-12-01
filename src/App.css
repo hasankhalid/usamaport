@@ -1,0 +1,660 @@
+html, body {
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+.navIntro {
+  height: 100vh;
+  position: relative;
+}
+
+.navTitle {
+  height: 250px;
+  width: 100%;
+}
+
+.navContain {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navParent {
+  z-index: 199;
+}
+
+.portfolioLink {
+  cursor: pointer;
+}
+
+.intro {
+  width: 100%;
+}
+
+.title {
+  font-family: 'Sacramento', serif;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navtext {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.myName, .titleNav {
+  margin-top: 75px;
+  font-family: 'Nunito', 'sans-serif';
+  color: #D4E157;
+  font-size: 36px;
+}
+
+.myName, .titleNav {
+  margin-top: 250px;
+}
+
+.titleNav {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.slightlybigger {
+  font-size: 22px;
+  color: #D4E157;
+}
+
+.iamUsama {
+  font-size: 23px;
+  color: #FFEE58;
+}
+
+.describeYourself {
+  font-size: 18px;
+  color: #ECEFF1;
+  margin-bottom: 100px;
+  font-family: 'Nunito', 'sans-serif';
+}
+
+.imagesContain {
+  width: 100%;
+}
+
+.flexImageContain {
+  justify-content: flex-end;
+}
+
+.flexImage {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flexImageTitle {
+  width: 100%;
+  height: 250px;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.colorOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00695C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #37474F, #00695C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #37474F, #00695C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.80;
+}
+
+.colorOverlayTitle {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  background: #00695C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #37474F, #00695C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #37474F, #00695C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.70;
+}
+
+.portoverlay {
+  opacity: 0.8;
+}
+
+.socialOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.flexTitle {
+  display: flex;
+  align-items: center;
+  margin-top: -50px;
+  height: 100%;
+}
+
+.hundred {
+  height: 100%;
+}
+
+.socIconsContain {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.socIcon {
+  font-size: 30px;
+  color: white;
+}
+
+.chevIcon {
+  color: #BDBDBD;
+}
+
+.upIcon {
+  width: 25px;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+
+.chevRelative {
+  position: relative;
+}
+
+.chevContain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer {
+  margin-top: 30px;
+  border-left: 15px solid;
+  border-left-color: #37474F;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footerDisclaim {
+  font-family: 'Nunito', 'sans-serif';
+  font-size: 24px;
+  color: #455A64;
+}
+
+.footerEmail {
+  font-size: 18px;
+  border-bottom: 2px solid;
+  padding-bottom: 3px;
+  color: #607D8B;
+}
+
+.footerTitle {
+  font-size: 18px;
+  border-bottom: 1px solid;
+  border-bottom-color: #455A64;
+  color: #455A64;
+}
+
+.footerLinksContain {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-top: 1rem;
+  color: #607D8B;
+}
+
+.footerText {
+  margin-bottom: 3px;
+}
+
+.homePortImage {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sectionTitle {
+  font-family: 'Nunito', 'sans-serif';
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.AboutListTitle {
+  font-size: 24px;
+}
+
+.portfolioImgContain {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.portfolioTint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #00695C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #37474F, #00695C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #37474F, #00695C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.25;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.homePortItem {
+  border: 1px solid;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  color: #455A64;
+}
+
+.homePortHeight {
+  height: 475px;
+}
+
+.homeProjTitle, .detailsHead, .homeProjClient {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.serviceImgContain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.serviceImage {
+  width: 85px;
+  height: 85px;
+}
+
+.serviceTitle {
+  font-size: 25px;
+  font-family: 'Nunito', 'sens-serif';
+}
+
+.serviceDesc {
+  font-size: 16px;
+}
+
+.aboutMe {
+  font-size: 16px;
+}
+
+.portfolioLink {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Nunito', 'sans-serif';
+  margin-top: 20px;
+  color: #C2185B;
+}
+
+.viewProj {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .homePortHeight {
+    height: 450px;
+  }
+}
+
+.avatarContain {
+  margin-left: calc(50% - 100px);
+}
+
+.avatarInfoContain {
+  margin-top: 50px;
+}
+
+.avatarInfo {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .linksSection {
+    margin-top: 15px;
+  }
+  .homePortItem {
+    margin: 10px 0px;
+  }
+
+  .avatarContain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .homePortHeight {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .avatar {
+    margin-top: 30px;
+    max-width: 300px;
+  }
+}
+
+.portLogo {
+  width: 125px;
+  margin-left: calc(100% - 125px);
+  margin-bottom: 10px;
+}
+
+.halfBannerContain {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.halfBanner {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #e0e0e0;
+}
+
+.topBox {
+  background-color: red;
+  width: 100px;
+  height: 5px;
+  margin-top: 5px;
+}
+
+.halfInfoTitle {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.aboutInfoHalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+.aboutApproachHalf {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.halfApproachBannerContain {
+  height: 400px;
+}
+
+.halfBannerApproach {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #e0e0e0;
+}
+
+.portSection {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .aboutApproachHalf {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .halfApproachBannerContain {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .describeYourself {
+    font-size: 15px;
+  }
+  .slightlybigger {
+    font-size: 17px;
+  }
+  .myName {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .describeYourself {
+    font-size: 14px;
+  }
+  .slightlybigger {
+    font-size: 16px;
+  }
+  .myName {
+    font-size: 26px;
+  }
+}
+
+.Port {
+  color: #D4E157;
+}
+
+.insightContain {
+  display: flex;
+  justify-content: center;
+  color: #3F51B5;
+  margin-top: 30px;
+}
+
+.insightContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  padding-top: 10px;
+  border-color: #e0e0e0;
+}
+
+.insightContain:last-child {
+  color: #7CB342;
+}
+
+.aboutListItem {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #e0e0e0;
+  margin: 10px 0px;
+}
+
+.aboutListImg {
+  width: 100px;
+}
+
+.aboutFlexList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insightNumber {
+  font-size: 20px;
+}
+
+.insightTitle {
+  font-size: 14px;
+}
+
+.budgetContain {
+  margin-top: 30px;
+}
+
+.budgetContainer {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-color: #e0e0e0;
+}
+
+.budgetHead {
+  font-size: 16px;
+}
+
+.budgetNumber {
+  font-size: 30px;
+}
+
+.sixteen {
+  font-size: 16px;
+}
+
+.border {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 15px 15px;
+  border-color: #e0e0e0;
+}
+
+.noMargin {
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: white;
+  padding-top: 25px;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a  {
+  color: white !important;
+}
+
+.navbar-toggle {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggle:hover {
+  background-color: #00695C !important;
+}
+
+.navbar-toggle:active, .navbar-toggle:focus {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.navbar-collapse {
+  border: none;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    text-align: right;
+  }
+  .navtext {
+    margin-right: 25px;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .navtext {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navtext {
+    margin-right: 21px;
+  }
+}
+
+.footerText, .socIcon, .upIcon {
+  cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgba(0,0,0,0);
+}
+
+.socIconsContain {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.chevIcon {
+  align-self: flex-start;
+}
+
+.tookPhoto {
+  font-size: 12px;
+  color: white;
+}
+
+.backArrow {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  .navIntro {
+    height: 550px;
+  }
+}
