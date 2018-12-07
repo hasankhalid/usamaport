@@ -34,6 +34,7 @@ class HomeProjects extends Component {
                         </div>
                         <p className="homeProjTitle">{portfolioItem.title}</p>
                         <p className="homeProjClient">Client: {portfolioItem.client}</p>
+                        <p className={classnames('homeProjCat', portfolioItem.ClassName)}>Category: {portfolioItem.cat}</p>
                       </div>
                       <div>
                         <p className="homeProjDesc">{portfolioItem.description}</p>
@@ -54,6 +55,7 @@ class HomeProjects extends Component {
                       </div>
                       <p className={classnames('homeProjTitle', portfolioItem.ClassName)}>{portfolioItem.title}</p>
                       <p className={classnames('homeProjClient', portfolioItem.ClassName)}>Client: {portfolioItem.client}</p>
+                      <p className={classnames('homeProjCat', portfolioItem.ClassName)}>Category: {portfolioItem.cat}</p>
                       <div>
                         <p className="homeProjDesc">{portfolioItem.description}</p>
                       </div>

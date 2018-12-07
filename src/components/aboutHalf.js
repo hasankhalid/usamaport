@@ -57,6 +57,7 @@ class AboutHalfImage extends Component {
                     </Fade>
                     <Fade up delay={75}>
                       <p className="description sixteen">{approachItem.description}</p>
+                      <p className="description sixteen">{approachItem.subdesc}</p>
                     </Fade>
                   </Col>
                   <Col lg={6} md={6} sm={6} xs={12} className="halfApproachBannerContain halfBannerContain">
@@ -74,6 +75,7 @@ class AboutHalfImage extends Component {
                     </Fade>
                     <Fade up delay={75}>
                       <p className="description sixteen">{approachItem.description}</p>
+                      <p className="description sixteen">{approachItem.subdesc}</p>
                     </Fade>
                   </Col>
                 </div>

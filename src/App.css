@@ -279,7 +279,7 @@ html, body {
   height: 475px;
 }
 
-.homeProjTitle, .detailsHead, .homeProjClient {
+.homeProjTitle, .detailsHead, .homeProjClient, .homeProjCat {
   font-weight: 600;
   font-size: 15px;
 }
@@ -328,7 +328,7 @@ html, body {
 @media only screen and (max-width: 1200px) {
 
   .homePortHeight {
-    height: 450px;
+    height: 470px;
   }
 }
 
