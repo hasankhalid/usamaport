@@ -55,10 +55,11 @@ class AboutHalfImage extends Component {
                     <Fade down>
                       <p className="halfInfoTitle">{approachItem.title}</p>
                     </Fade>
-                    <Fade up delay={75}>
-                      <p className="description sixteen">{approachItem.description}</p>
-                      <p className="description sixteen">{approachItem.subdesc}</p>
-                    </Fade>
+                    {approachItem.description.length > 0 && approachItem.description.map((desc, index) =>
+                      <Fade up delay={75} key={index}>
+                        <p key={index} className="description sixteen">{desc}</p>
+                      </Fade>
+                    )}
                   </Col>
                   <Col lg={6} md={6} sm={6} xs={12} className="halfApproachBannerContain halfBannerContain">
                     <img className="halfBannerApproach" alt="" src={approachItem.img}/>
@@ -73,10 +74,11 @@ class AboutHalfImage extends Component {
                     <Fade down>
                       <p className="halfInfoTitle">{approachItem.title}</p>
                     </Fade>
-                    <Fade up delay={75}>
-                      <p className="description sixteen">{approachItem.description}</p>
-                      <p className="description sixteen">{approachItem.subdesc}</p>
-                    </Fade>
+                    {approachItem.description.length > 0 && approachItem.description.map((desc, index) =>
+                      <Fade up delay={75} key={index}>
+                        <p key={index} className="description sixteen">{desc}</p>
+                      </Fade>
+                    )}
                   </Col>
                 </div>
             )}
